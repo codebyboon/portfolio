@@ -1,96 +1,44 @@
-export const NavLinks = [
-    { href: '/', key: 'Inspiration', text: 'Inspiration' },
-    { href: '/', key: 'Find Projects', text: 'Find Projects' },
-    { href: '/', key: 'Learn Development', text: 'Learn Development' },
-    { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
-    { href: '/', key: 'Hire Developers', text: 'Hire Developers' }
-  ];
-  
-  export const categoryFilters = [
-    "Frontend",
-    "Backend",
-    "Full-Stack",
-    "Mobile",
-    "UI/UX",
-    "Game Dev",
-    "DevOps",
-    "Data Science",
-    "Machine Learning",
-    "Cybersecurity",
-    "Blockchain",
-    "E-commerce",
-    "Chatbots"
-  ]
-  
-  export const footerLinks = [
-    {
-      title: 'For developers',
-      links: [
-        'Go Pro!',
-        'Explore development work',
-        'Development blog',
-        'Code podcast',
-        'Open-source projects',
-        'Refer a Friend',
-        'Code of conduct',
-      ],
-    },
-    {
-      title: 'Hire developers',
-      links: [
-        'Post a job opening',
-        'Post a freelance project',
-        'Search for developers',
-      ],
-    },
-    {
-      title: 'Brands',
-      links: [
-        'Advertise with us',
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        'About',
-        'Careers',
-        'Support',
-        'Media kit',
-        'Testimonials',
-        'API',
-        'Terms of service',
-        'Privacy policy',
-        'Cookie policy',
-      ],
-    },
-    {
-      title: 'Directories',
-      links: [
-        'Development jobs',
-        'Developers for hire',
-        'Freelance developers for hire',
-        'Tags',
-        'Places',
-      ],
-    },
-    {
-      title: 'Development assets',
-      links: [
-        'Code Marketplace',
-        'GitHub Marketplace',
-        'NPM Registry',
-        'Packagephobia',
-      ],
-    },
-    {
-      title: 'Development Resources',
-      links: [
-        'Freelancing',
-        'Development Hiring',
-        'Development Portfolio',
-        'Development Education',
-        'Creative Process',
-        'Development Industry Trends',
-      ],
-    },
-  ];
+export const myIntroduction = [
+  `I worked as an Application Development Specialist in Accenture Malaysia for 5 years+ experience of application development with a demonstrated history of working in Financial Services industry (Banking, Insurance).
+    
+  I have helped clients build applications & frameworks in multiple projects, consulting clients in solutioning for business requirements.`
+];
+
+export const cardsInformation = [
+  {
+    title: "Experiences", 
+    heading: "Accenture",
+    description: `Application Development Specialist
+    Jun 2022 - May 2023
+
+    Application Development Senior Analyst
+    Dec 2019 - May 2022
+
+    Software Developer
+    Aug 2017 - Nov 2019
+    `, 
+    href: "/#work"
+  },
+  {
+    title: "Skills", 
+    heading: "Tech",
+    description: `Javascript 
+    Siebel 
+    Java 
+    Python 
+    React 
+    Typescript 
+    TailwindCSS 
+    NextJS`,
+    href: "/#skills"
+  },
+  {
+    title: "Education", 
+    heading: "University of Nottingham Malaysia",
+    description: `Bachelor of Science (BSc), Computer Software Engineering
+    2014 - 2017
+    First Class honour`, 
+    href: "/#education"}
+
+];
+
