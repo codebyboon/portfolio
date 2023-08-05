@@ -2,9 +2,9 @@
 A website to showcase my working experiences and side projects.
 
 ### Techstacks
-Nextjs
-Typescript
-TailwindCSS
+Nextjs\n
+Typescript\n
+TailwindCSS\n
 
 ### NextJS Readme
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
