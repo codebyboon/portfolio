@@ -10,7 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 167, 169, 190;
+    --foreground-rgb: 214, 219, 220;
     --background-start-rgb: 18, 18, 18;
     --background-end-rgb: 18, 18, 18;
   }
@@ -28,4 +28,26 @@ body {
 
 p{
   white-space: pre-line;
+}
+
+  @layer base {
+    h3{
+      @apply font-bold capitalize text-2xl text-primary
+    }
+
+    span{
+      @apply font-semibold text-[#a7a9be]
+    }
+  }
+
+.text-primary {
+  color: #ff8906
+}
+
+.text-secondary {
+  color: #fffffe
+}
+
+.text-tertiary {
+  color: #e53170
 }
