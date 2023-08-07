@@ -1,5 +1,10 @@
 import React from 'react'
 
+/**
+ * Card Method
+ * * Used to design the card and display the info imported from constant folder
+ */
+
 const Card = ({title, heading, description, href}: {title: string, heading: string, description: string, href: string}) => {
   return (
     

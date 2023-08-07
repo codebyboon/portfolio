@@ -7,10 +7,20 @@ import githubIcon from 'public/images/github-icon.png';
 import linkedinIcon2 from 'public/images/linkedin-icon-org.png';
 import githubIcon2 from 'public/images/github-icon-org.png';
 
+/**
+* iconVariants Method
+* * To store the icon variants in array and whether different states.
+*/
+
 const iconVariants = {
   hovered: [linkedinIcon2, githubIcon2],
   notHovered: [linkedinIcon, githubIcon],
 };
+
+/**
+* IconLink Method
+* * To set different states when the icons are hovered.
+*/
 
 const IconLink = ({ href, imageIndex, alt }:{href:string, imageIndex: any, alt:string}) => {
   const [hovered, setHovered] = useState(false);
@@ -36,6 +46,11 @@ const IconLink = ({ href, imageIndex, alt }:{href:string, imageIndex: any, alt:s
     </motion.a>
   );
 };
+
+/**
+* Icons Method
+* * The overall icons design in the navigation bar.
+*/
 
 const Icons = () => {
   return (

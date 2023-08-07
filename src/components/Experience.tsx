@@ -19,6 +19,11 @@ const Details = ({position, company, companyLink, time, address} : {position: st
   )
 }
 
+/**
+* Experience Method
+* * The overall design of Experience section in the page.
+*/
+
 const Experience = () => {
 
   const ref = useRef(null);
