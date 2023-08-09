@@ -32,7 +32,7 @@ p{
 
   @layer base {
     h3{
-      @apply font-bold capitalize text-2xl text-primary
+      @apply font-bold capitalize text-2xl text-secondary
     }
 
     span{
@@ -51,3 +51,34 @@ p{
 .text-tertiary {
   color: #e53170
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.rating {
+  width: 100%; /* Full width */
+  background-color: #2e2f3e; /* Grey background */
+  height: 35px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /*Add bottom padding*/
+  padding-right: 10px;
+  color: #fffffe; /* White text color */
+}
+
+.sql {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} /* Blue */
+.siebel {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} /* Red */
+.js {font-size: 10px; width: 85%; background-color: #ff8906;} /* Green */
+.python {font-size: 10px; width: 80%; background-color: #ff8906;} /* Green */
+.informix {font-size: 10px; width: 80%; background-color: #ff8906;} /* Dark Grey */
+.tailwind {font-size: 10px; width: 75%; background-color: #ff8906;} /* Blue */
+.ts {font-size: 10px; width: 75%; background-color: #ff8906;} /* Red */
+.react {font-size: 10px; width: 70%; background-color: #ff8906;} /* Green */
+.next {font-size: 10px; width: 60%; background-color: #ff8906;} /* Green */
+
+.go {font-size: 10px; width: 40%; background-color: #ff8906;} /* Blue */
+.flutter {font-size: 10px; width: 20%; background-color: #ff8906;} /* Red */

@@ -66,11 +66,13 @@ const Contact = () => {
 
     return (
     // <section className="flex-col sm:px-16 px-6 sm:py-16 py-10 max-w-fit mx-auto relative z-0" id='contact'>
-        <div className="flex flex-col relative w-[75%] py-8 lg:py-16 mx-auto my-5" id="contact">
-        <h2 className='font-bold md:text-6xl sm:text-5xl xs:text-4xl text-3xl mb-20 w-full text-center text-[#fffffe]'>
-        Contact Me
+        <div className="flex flex-col relative w-[75%] py-8 lg:py-16 mx-auto my-5 scroll-mt-10" id="contact">
+        <h2 className='font-bold md:text-6xl sm:text-5xl xs:text-4xl text-3xl mb-5 w-full text-center text-[#fffffe]'>
+        Let's <span className="text-[#ff7406]">connect</span>
         </h2>
-            <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Do you have job opportunities to offer? Do you need to hire freelancer for your projects? Do you have any comments regarding the website? Feel free to get in touch! 🤙 </p>
+            <p className="font-light text-center  text-gray-500 dark:text-gray-400 sm:text-xl">Do you have job opportunities to offer? Do you need to hire freelancer for your projects? Do you have any comments regarding the website?</p>
+            <p className="mb-10 font-light text-center  text-gray-500 dark:text-gray-400 sm:text-xl">Feel free to get in touch! 🤙</p> 
+            <p className="mb-5 lg:mb-5 text-center sm:text-xl">Email directly to <a href="mailto:codebyboon@gmail.com" className="underline text-primary">codebyboon@gmail.com</a> or submit form below! </p>
             {error && (<p className="mb-8 lg:mb-16 font-light text-center text-red-500 sm:text-xl">{error}</p>)}
             <form action="#" className="space-y-8">
                 <div>

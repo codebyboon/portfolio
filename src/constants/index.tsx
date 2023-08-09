@@ -61,20 +61,57 @@ export const jobExperience = [
   • Provided production issues fix promptly for bank clients in CRM system so that customer's experience would not be affected. Production issues fix closing rate has been kept around 80% and response rate around 100%.
   • Ensured the server has been running well so that the team's deliverable efficiencies are not affected.
 
+  TECH:
+  • Siebel
+  • Javascript
+  • SQL
+  • Shell Script
+  • Microsoft SourceSafe (version control system)
+  • Java (minor)
+
   AWARDS:
   • Voted as Best Team Player by the project members.
   
   `,
   `RESPONSIBILITIES: 
   • Gather requirements for new CRs, analyze business requirements, and assess the deliverables for the requirements in both Bank and Insurance company.
+  • Leading a team consisting of L3 BAU support for Insurance client, giving guidance and knowledge transfer to junior members
   • Identify root cause for production issues & providing solutions for business process using Informix, perform data patching activities using SQL to fix the production issues.
-  • Leading a team consisting of L3 BAU support for Insurance client.
-  • Consulted Bank in Vietnam in baselining their current operations, procedures and applications performances; Advised the client what can be done for system improvement & business operations.
+  • Help Insurance client to build IFRS17 framework to extract relevant data & information into reports for evaluation.
+  • Consulted Vietnam Bank in baselining their current operations, procedures and applications performances; Advised the client what can be done for system improvement & business operations.
+
+  TECH:
+  • Informix
+  • Powerpoint (consulting with Vietnam Bank)
 
   `,
   `RESPONSIBILITIES: 
   • To support business by analysing the root cause of systems errors and preparing reports.
   • Get involved with business and finance side in order to work out a solution.
   • Handle all kind of SDLCs tickets, including data patching, program enhancement/rectification, ad hoc reporting etc.
-  • Develop automate programs to simplify process for SDLCs activities.`
+  • Develop automate programs to simplify process for SDLCs activities.
+  
+  TECH:
+  • Informix
+  `
+
+  
 ]
+
+export const techSkills2 = [
+  `Proficient Tech/Languages:
+  1. Javascript
+  2. Python
+  3. Oracle Siebel
+  4. Informix
+  5. Oracle SQL Developer
+  
+  Experience:
+  1. React
+  2. Tailwind CSS
+  3. Typescript
+
+  Learning:
+  1. Flutter
+  2. Golang
+`]

@@ -27,7 +27,7 @@ const CustomLink = ({href , title, className=""}: {href: string, title: string, 
 const Navbar = () => {
     return (
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-[#0f0e17]">
+            <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-[#121212]">
                 <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                     <a href="/" className="flex">
                     <p className="text-[#fffffe] text-[20px] font-bold cursor-pointer ">codeby</p>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <CustomLink href="/#about" title="About" className='mx-4' />
                         <CustomLink href="/project" title="Project" className='mx-4'/>
                         <CustomLink href="/#contact" title="Contact" className='mx-4'/>
-                        <Link href="/dummy.pdf" target={"_blank"} className="ml-2 relative group text-black bg-[#fffffe] rounded-lg font-semibold px-2 hover:bg-transparent hover:text-white border border-solid border-transparent hover:border-white" download={true}>Download CV
+                        <Link href="/dummy.pdf" target={"_blank"} className="ml-2 relative group text-[#121212] bg-[#fffffe] rounded-lg font-semibold px-2 hover:bg-[#ff8906] hover:text-white border border-solid border-transparent hover:border-[#ff8906]" download={true}>Download CV
                             
                         </Link>
                     </ul>
