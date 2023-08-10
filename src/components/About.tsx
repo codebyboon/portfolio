@@ -11,7 +11,7 @@ import CardsContainer from '@/components/Cards/CardsContainer'
 const About = () => {
   return (
     
-    <section className="flex-col sm:px-16 px-6 sm:py-16 py-10 max-w-fit mx-auto relative z-0 scroll-mt-20" id='about'>
+    <section className="flex-col sm:px-16 px-6 sm:py-16 py-10 max-w-fit mx-auto relative z-0 scroll-mt-14" id='about'>
         
         <div className="container flex justify-center">
             <Image src="/images/profile.jpg" alt="codebyboon" width={400} height={400} className='h-auto rounded-2xl' />

@@ -1,8 +1,8 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { usePathname } from 'next/navigation'
+import { useParams, usePathname, useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 import Icons from './Icons'
@@ -12,11 +12,26 @@ const CustomLink = ({href , title, className=""}: {href: string, title: string, 
 
     const pathName = usePathname()
 
+    const params = useParams();
+    const [sameLink, setLink] = useState(false);
+
+    useEffect(() => {
+
+        const hash = "/" + window.location.hash
+
+        if (hash === href) {
+            setLink(true)
+        } else {
+            setLink(false)
+        }
+
+    }, [params]);
+
     return(
         <motion.li className={`${className} relative group text-[#fffffe]`} whileHover={{scale:1.2}}>
             <Link href={href}>{title}</Link>
 
-            <span className={`h-[1px] inline-block bg-[#ff8906] absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${pathName === href ? 'w-full':'w-0'}`}>&nbsp;</span>
+            <span className={`h-[1px] inline-block bg-[#ff8906] absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${sameLink ? 'w-full':'w-0'}`}>&nbsp;</span>
 
         </motion.li>
     )
@@ -35,11 +50,12 @@ const Navbar = () => {
                     </a>
                     <ul className="list-none hidden sm:flex flex-row gap-1">
                         <CustomLink href="/" title="Home" className='mr-4'/>
-                        <CustomLink href="/#about" title="About" className='mx-4' />
-                        <CustomLink href="/project" title="Project" className='mx-4'/>
+                        <CustomLink href="/#work" title="Work" className='mx-4'/>
+                        <CustomLink href="/#skills" title="Skills" className='mx-4'/>
+                        <CustomLink href="/#project" title="Project" className='mx-4'/>
                         <CustomLink href="/#contact" title="Contact" className='mx-4'/>
-                        <Link href="/dummy.pdf" target={"_blank"} className="ml-2 relative group text-[#121212] bg-[#fffffe] rounded-lg font-semibold px-2 hover:bg-[#ff8906] hover:text-white border border-solid border-transparent hover:border-[#ff8906]" download={true}>Download CV
-                            
+                        <Link href="/Resume-Saw-Yee-Boon.pdf" target={"_blank"} className="ml-2 relative group text-[#121212] bg-[#fffffe] rounded-lg font-semibold px-2 hover:bg-[#ff8906] hover:text-white border border-solid border-transparent hover:border-[#ff8906]" download={true}>
+                        Download CV
                         </Link>
                     </ul>
                     

@@ -70,15 +70,20 @@ p{
   color: #fffffe; /* White text color */
 }
 
-.sql {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} /* Blue */
-.siebel {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} /* Red */
-.js {font-size: 10px; width: 85%; background-color: #ff8906;} /* Green */
-.python {font-size: 10px; width: 80%; background-color: #ff8906;} /* Green */
-.informix {font-size: 10px; width: 80%; background-color: #ff8906;} /* Dark Grey */
-.tailwind {font-size: 10px; width: 75%; background-color: #ff8906;} /* Blue */
-.ts {font-size: 10px; width: 75%; background-color: #ff8906;} /* Red */
-.react {font-size: 10px; width: 70%; background-color: #ff8906;} /* Green */
-.next {font-size: 10px; width: 60%; background-color: #ff8906;} /* Green */
+.sql {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} 
+.siebel {font-size: 10px; height: 35px; width: 90%; background-color: #ff8906;} 
+.js {font-size: 10px; width: 85%; background-color: #ff8906;} 
+.python {font-size: 10px; width: 80%; background-color: #ff8906;} 
+.informix {font-size: 10px; width: 80%; background-color: #ff8906;}
+.tailwind {font-size: 10px; width: 75%; background-color: #ff8906;} 
+.ts {font-size: 10px; width: 75%; background-color: #ff8906;} 
+.react {font-size: 10px; width: 70%; background-color: #ff8906;} 
+.next {font-size: 10px; width: 60%; background-color: #ff8906;} 
+.go {font-size: 10px; width: 40%; background-color: #ff8906;} 
+.requirements {font-size: 10px; width: 90%; background-color: #ff8906;}
+.waterfall {font-size: 10px; width: 90%; background-color: #ff8906;}
+.ba {font-size: 10px; width: 80%; background-color: #ff8906;}
+.agile {font-size: 10px; width: 70%; background-color: #ff8906;}
+.project {font-size: 10px; width: 70%; background-color: #ff8906;}
+.team {font-size: 10px; width: 60%; background-color: #ff8906;}
 
-.go {font-size: 10px; width: 40%; background-color: #ff8906;} /* Blue */
-.flutter {font-size: 10px; width: 20%; background-color: #ff8906;} /* Red */

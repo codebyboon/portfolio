@@ -24,9 +24,8 @@ export const cardsInformation = [
     id:1,
     title: "Skills", 
     heading: "Tech",
-    description: `Javascript 
-    Siebel 
-    Java 
+    description: `Javascript
+    Siebel  
     Python 
     React 
     Typescript 
@@ -94,24 +93,4 @@ export const jobExperience = [
   TECH:
   • Informix
   `
-
-  
 ]
-
-export const techSkills2 = [
-  `Proficient Tech/Languages:
-  1. Javascript
-  2. Python
-  3. Oracle Siebel
-  4. Informix
-  5. Oracle SQL Developer
-  
-  Experience:
-  1. React
-  2. Tailwind CSS
-  3. Typescript
-
-  Learning:
-  1. Flutter
-  2. Golang
-`]

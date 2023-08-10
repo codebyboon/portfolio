@@ -34,3 +34,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 public/images/profile.jpg
+
+# documents & images
+*.pdf
+*.png
