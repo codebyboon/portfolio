@@ -39,11 +39,11 @@ const Skills = () => {
 
   return (
     <div className='my-auto scroll-mt-28' id='skills'>
-      <h2 className='font-bold md:text-6xl sm:text-5xl xs:text-4xl text-3xl mb-20 w-full text-center text-[#fffffe]'>
+      <h2 className='font-bold md:text-6xl sm:text-5xl xs:text-4xl text-3xl mt-10 lg:mt-0 mb-10 lg:mb-20 w-full text-center text-[#fffffe]'>
         Skills
       </h2>
 
-      <div className='flex flex-row w-[100%] justify-evenly'>            
+      <div className='flex flex-col lg:flex-row mx-5 lg:mx-0 lg:w-[100%] text-center lg:text-left justify-evenly'>            
         <div>
           <h3 className='capitalize mb-5'>Proficient Tech/Languages&nbsp;</h3>
           <div className='w-96'>
@@ -56,7 +56,7 @@ const Skills = () => {
         </div>
             
         <div>
-          <h3 className='capitalize mb-5'>Experience&nbsp;</h3>
+          <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Experience&nbsp;</h3>
           <div className='w-96'>
             <Ratingbar skill="Tailwind CSS" style="skills tailwind" progress="70%" imgsrc={tailwindIcon}/>
             <Ratingbar skill="Typescript" style="skills ts" progress="70%" imgsrc={tsIcon}/>
@@ -67,7 +67,7 @@ const Skills = () => {
         </div>
 
         <div>
-          <h3 className='capitalize mb-5'>Other skills&nbsp;</h3>
+          <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Other skills&nbsp;</h3>
           <div className='w-96'>
             <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc="/../public/images/requirements-icon.png"/>
             <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc="/../public/images/waterfall-icon.png"/>

@@ -11,8 +11,10 @@ const Details = ({position, company, companyLink, time, address} : {position: st
       <LiIcon />
       <div>
         <h3 className='capitalize'>{position}&nbsp;<a href={companyLink} target="_blank" className='text-[#e53170] capitalize'>@ {company}</a></h3>
-        <span>
-          {time} | {address}
+      </div>
+      <div className='mb-6 lg:mb-0'>
+        <span >
+            {time} | {address}
         </span>
       </div>
     </li>

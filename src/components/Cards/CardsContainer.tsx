@@ -9,7 +9,7 @@ import {cardsInformation} from '@/constants/index'
  */
 const CardsContainer = () => {
   return (    
-    <div className="container flex justify-between mx-auto my-10">
+    <div className="container flex flex-col my-auto mx-auto lg:flex-row lg:justify-between lg:mx-auto lg:my-3">
       {cardsInformation.map((info) => (
         <Card key={info.id} title={info.title} heading={info.heading} description={info.description} href={info.href}/>
       ))}

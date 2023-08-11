@@ -55,13 +55,9 @@ const IconLink = ({ href, imageIndex, alt }:{href:string, imageIndex: any, alt:s
 const Icons = () => {
   return (
     <div>
-        <div className="flex">
+        <div className="flex md:w-[450%] lg:w-[100%]">
             <IconLink href="https://www.linkedin.com/in/yee-boon-saw/" imageIndex={0} alt="LinkedIn" />
             <IconLink href="https://github.com/codebyboon" imageIndex={1} alt="Github" />
-        </div>
-        <div className="text-[10px] ml-2">
-            Icons by <a target="_blank" href="https://icons8.com"><u className="text-[#ff8906]">Icons8</u></a>
-        
         </div>
     </div>
     
