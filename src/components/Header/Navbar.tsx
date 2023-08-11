@@ -52,7 +52,7 @@ const Navbar = () => {
                         <CustomLink href="/" title="Home" className='mr-4'/>
                         <CustomLink href="/#work" title="Work" className='mx-4'/>
                         <CustomLink href="/#skills" title="Skills" className='mx-4'/>
-                        <CustomLink href="/#project" title="Project" className='mx-4'/>
+                        <CustomLink href="/#projects" title="Projects" className='mx-4'/>
                         <CustomLink href="/#contact" title="Contact" className='mx-4'/>
                         <Link href="/Resume-Saw-Yee-Boon.pdf" target={"_blank"} className="ml-2 relative group text-[#121212] bg-[#fffffe] rounded-lg font-semibold px-2 hover:bg-[#ff8906] hover:text-white border border-solid border-transparent hover:border-[#ff8906]" download={true}>
                         Download CV
