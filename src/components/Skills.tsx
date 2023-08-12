@@ -46,7 +46,7 @@ const Skills = () => {
       <div className='flex flex-col lg:flex-row mx-5 lg:mx-0 lg:w-[100%] text-center lg:text-left justify-evenly'>            
         <div>
           <h3 className='capitalize mb-5'>Proficient Tech/Languages&nbsp;</h3>
-          <div className='w-96'>
+          <div className='w-auto min-[400px]:w-96'>
             <Ratingbar skill="Siebel" style="skills siebel" progress="90%" imgsrc={oracleIcon} />
             <Ratingbar skill="SQL" style="skills sql" progress="90%" imgsrc={sqlIcon}  />
             <Ratingbar skill="Javascript" style="skills js" progress="80%" imgsrc={jsIcon}/>
@@ -57,7 +57,7 @@ const Skills = () => {
             
         <div>
           <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Experience&nbsp;</h3>
-          <div className='w-96'>
+          <div className='w-auto min-[400px]:w-96'>
             <Ratingbar skill="Tailwind CSS" style="skills tailwind" progress="70%" imgsrc={tailwindIcon}/>
             <Ratingbar skill="Typescript" style="skills ts" progress="70%" imgsrc={tsIcon}/>
             <Ratingbar skill="React" style="skills react" progress="65%" imgsrc={reactIcon}/>
@@ -68,7 +68,7 @@ const Skills = () => {
 
         <div>
           <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Other skills&nbsp;</h3>
-          <div className='w-96'>
+          <div className='w-auto min-[400px]:w-96'>
             <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc="/../public/images/requirements-icon.png"/>
             <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc="/../public/images/waterfall-icon.png"/>
             <Ratingbar skill="Business Analysis" style="skills ba" progress="80%" imgsrc="/../public/images/ba-icon.png"/>

@@ -1,8 +1,8 @@
 export const myIntroduction = [
   `
-  I have spent nearly 6 years of working in Accenture. My journey began as a Software Developer(2017), learning Informix, resolve production issues and driving efficiency through automation. My skills and accomplishments have consistently fueled my drive for new challenges and opportunities. After that, I have promoted to Application Development Senior Analyst, where I excelled in leading teams and crafting frameworks like IFRS17 for data extraction. I even consulted for Vietnam Bank's operational enhancement.
+  I have spent nearly 6 years of working in Accenture. My journey began as a Software Developer(2017), resolving production issues and driving efficiency through automation with Informix. My skills and accomplishments in the early days have consistently fueled my drive for new challenges and opportunities. After that, I have promoted to Application Development Senior Analyst, where I excelled in leading teams and crafting frameworks for Insurance client(e.g. IFRS17) for data extraction. I even consulted for Vietnam Bank's operational enhancement.
   
-  In the last year of working as an adept Application Development Specialist (2022-2023), I spearheaded business/requirements analysis, managed project teams, resources & budgeting, and provided critical technical support using SQL, Siebel, and more. Notably, I facilitated SG Bank's fraud management module, ensured compliance with government auditing policies, and maintained high production issue resolution rates.  Now I am looking to new journey where I can hone and improve new skills especially with all the new tech.
+  In the last year of working as an adept Application Development Specialist (2022-2023), I spearheaded business/requirements analysis, managed project teams, resources & budgeting, and provided critical technical support using SQL, Siebel, and more. Notably, I facilitated SG Bank's fraud management module, ensured compliance with government auditing policies, and maintained high production issue resolution rates. Now I am looking to new journey where I can hone and improve new skills.
   
   `
 ];
@@ -84,6 +84,8 @@ export const jobExperience = [
 
   TECH:
   • Informix
+  • SQL
+  • Shellscript
   • Powerpoint (consulting with Vietnam Bank)
 
   `,
@@ -95,5 +97,7 @@ export const jobExperience = [
   
   TECH:
   • Informix
+  • SQL
+  • Shellscript
   `
 ]
