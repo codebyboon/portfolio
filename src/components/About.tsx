@@ -3,6 +3,8 @@ import Image from 'next/image'
 import {myIntroduction} from '@/constants/index'
 import CardsContainer from '@/components/Cards/CardsContainer'
 
+import profileImage from 'public/images/profile.jpg'
+
 /**
  * About Method
  * * Used to design/import all the elements to be displayed in About page
@@ -15,7 +17,7 @@ const About = () => {
         
         <div className="container flex flex-col lg:flex-row ">
             <div className="relative w-[100%] max-w-3xl">
-            <Image src="/../public/images/profile.jpg" alt="codebyboon" 
+            <Image src={profileImage} alt="codebyboon" 
             width={400}
             height={400}
             sizes="(max-width: 1080px) 100vw, 700px"

@@ -13,7 +13,12 @@ import informixIcon from 'public/images/informix-icon.png';
 import oracleIcon from 'public/images/oracle-siebel.svg'
 import tsIcon from 'public/images/typescript-icon.png'
 import goIcon from 'public/images/golang-icon.png'
-
+import requirementsIcon from 'public/images/requirements-icon.png'
+import waterfallIcon from 'public/images/waterfall-icon.png'
+import baIcon from 'public/images/ba-icon.png'
+import agileIcon from 'public/images/agile-icon.png'
+import pmIcon from 'public/images/pm-icon.png'
+import teamIcon from 'public/images/team-icon.png'
 
 /**
  * * Design of Rating bar for each skills
@@ -69,12 +74,12 @@ const Skills = () => {
         <div>
           <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Other skills&nbsp;</h3>
           <div className='w-auto min-[400px]:w-96'>
-            <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc="/../public/images/requirements-icon.png"/>
-            <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc="/../public/images/waterfall-icon.png"/>
-            <Ratingbar skill="Business Analysis" style="skills ba" progress="80%" imgsrc="/../public/images/ba-icon.png"/>
-            <Ratingbar skill="Agile Methodology" style="skills agile" progress="70%" imgsrc="/../public/images/agile-icon.png"/>
-            <Ratingbar skill="Project Management" style="skills project" progress="70%" imgsrc="/../public/images/pm-icon.png"/>
-            <Ratingbar skill="Team Management" style="skills team" progress="60%" imgsrc="/../public/images/team-icon.png"/>
+            <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc={requirementsIcon}/>
+            <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc={waterfallIcon}/>
+            <Ratingbar skill="Business Analysis" style="skills ba" progress="80%" imgsrc={baIcon}/>
+            <Ratingbar skill="Agile Methodology" style="skills agile" progress="70%" imgsrc={agileIcon}/>
+            <Ratingbar skill="Project Management" style="skills project" progress="70%" imgsrc={pmIcon}/>
+            <Ratingbar skill="Team Management" style="skills team" progress="60%" imgsrc={teamIcon}/>
           </div>
         </div>
       </div>
