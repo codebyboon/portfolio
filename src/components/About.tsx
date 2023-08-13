@@ -15,7 +15,7 @@ const About = () => {
         
         <div className="container flex flex-col lg:flex-row ">
             <div className="relative w-[100%] max-w-3xl">
-            <Image src="/images/profile.jpg" alt="codebyboon" 
+            <Image src="/../public/images/profile.jpg" alt="codebyboon" 
             width={400}
             height={400}
             sizes="(max-width: 1080px) 100vw, 700px"

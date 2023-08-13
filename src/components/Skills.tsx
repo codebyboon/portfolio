@@ -36,33 +36,33 @@ const Skills = () => {
           <h3 className='capitalize mb-5'>Proficient Tech/Languages&nbsp;</h3>
           <div className='w-auto min-[400px]:w-96'>
             <Ratingbar skill="Siebel" style="skills siebel" progress="90%" imgsrc="/images/oracle-siebel.svg" />
-            <Ratingbar skill="SQL" style="skills sql" progress="90%" imgsrc="/images/sql-icon.png"  />
-            <Ratingbar skill="Javascript" style="skills js" progress="80%" imgsrc="/images/js-icon.png" />
-            <Ratingbar skill="Informix" style="skills informix" progress="80%" imgsrc="/images/informix-icon.png" />
-            <Ratingbar skill="Python" style="skills python" progress="75%" imgsrc="/images/python-icon.png" />
+            <Ratingbar skill="SQL" style="skills sql" progress="90%" imgsrc="/../public/images/sql-icon.png"  />
+            <Ratingbar skill="Javascript" style="skills js" progress="80%" imgsrc="/../public/images/js-icon.png" />
+            <Ratingbar skill="Informix" style="skills informix" progress="80%" imgsrc="/../public/images/informix-icon.png" />
+            <Ratingbar skill="Python" style="skills python" progress="75%" imgsrc="/../public/images/python-icon.png" />
           </div>
         </div>
             
         <div>
           <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Experience&nbsp;</h3>
           <div className='w-auto min-[400px]:w-96'>
-            <Ratingbar skill="Tailwind CSS" style="skills tailwind" progress="70%" imgsrc="/images/tailwind-icon.png"/>
-            <Ratingbar skill="Typescript" style="skills ts" progress="70%" imgsrc="/images/typescript-icon.png" />
-            <Ratingbar skill="React" style="skills react" progress="65%" imgsrc="/images/react-icon.png" />
-            <Ratingbar skill="NextJS" style="skills next" progress="60%" imgsrc="/images/nextjs-icon.png" />
-            <Ratingbar skill="Go" style="skills go" progress="50%" imgsrc="/images/golang-icon.png" />
+            <Ratingbar skill="Tailwind CSS" style="skills tailwind" progress="70%" imgsrc="/../public/images/tailwind-icon.png"/>
+            <Ratingbar skill="Typescript" style="skills ts" progress="70%" imgsrc="/../public/images/typescript-icon.png" />
+            <Ratingbar skill="React" style="skills react" progress="65%" imgsrc="/../public/images/react-icon.png" />
+            <Ratingbar skill="NextJS" style="skills next" progress="60%" imgsrc="/../public/images/nextjs-icon.png" />
+            <Ratingbar skill="Go" style="skills go" progress="50%" imgsrc="/../public/images/golang-icon.png" />
           </div>
         </div>
 
         <div>
           <h3 className='capitalize mb-1 mt-10 lg:mt-0 lg:mb-5'>Other skills&nbsp;</h3>
           <div className='w-auto min-[400px]:w-96'>
-            <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc="/images/requirements-icon.png"/>
-            <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc="/images/waterfall-icon.png"/>
-            <Ratingbar skill="Business Analysis" style="skills ba" progress="80%" imgsrc="/images/ba-icon.png"/>
-            <Ratingbar skill="Agile Methodology" style="skills agile" progress="70%" imgsrc="/images/agile-icon.png"/>
-            <Ratingbar skill="Project Management" style="skills project" progress="70%" imgsrc="/images/pm-icon.png"/>
-            <Ratingbar skill="Team Management" style="skills team" progress="60%" imgsrc="/images/team-icon.png"/>
+            <Ratingbar skill="Requirements Gathering & Analysis" style="skills requirements" progress="90%" imgsrc="/../public/images/requirements-icon.png"/>
+            <Ratingbar skill="Waterfall Methodology" style="skills waterfall" progress="90%" imgsrc="/../public/images/waterfall-icon.png"/>
+            <Ratingbar skill="Business Analysis" style="skills ba" progress="80%" imgsrc="/../public/images/ba-icon.png"/>
+            <Ratingbar skill="Agile Methodology" style="skills agile" progress="70%" imgsrc="/../public/images/agile-icon.png"/>
+            <Ratingbar skill="Project Management" style="skills project" progress="70%" imgsrc="/../public/images/pm-icon.png"/>
+            <Ratingbar skill="Team Management" style="skills team" progress="60%" imgsrc="/../public/images/team-icon.png"/>
           </div>
         </div>
       </div>
