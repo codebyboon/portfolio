@@ -28,7 +28,7 @@ const Projects = () => {
             </div>
 
             <div className="max-w-sm w-72 min-[400px]:w-48 md:w-auto mx-auto md:mx-0 bg-white border border-gray-200 rounded-lg shadow dark:bg-[#2e2f3e] dark:border-[#2e2f3e]">
-                <img className="rounded-t-lg col-span-6 md:col-span-4 lg:col-span-3 aspect-video w-full" src="/projects/go-currency-converter.png" alt="" />
+                <img className="rounded-t-lg col-span-6 md:col-span-4 lg:col-span-3 aspect-video w-full" src="/projects/gocurrencyconverter.png" alt="" />
                 <div className="p-5">
                     <a href="#">
                         <h5 className="text-xl min-[400px]:text-2xl font-bold tracking-tight text-gray-900 dark:text-[#ff8906]">CLI Currency Converter</h5>
