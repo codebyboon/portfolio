@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import sqlIcon from '/public/images/sql-icon.png';
+import sqlIcon from '../../public/images/sql-icon.png';
 import tailwindIcon from '/public/images/tailwind-icon.png';
 import pythonIcon from '/public/images/python-icon.png';
 import jsIcon from '/public/images/js-icon.png';
