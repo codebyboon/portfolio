@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       ...mailOptions,
       subject: "codebyboon.com :: " + post.subject,
-       html: `<h3>From: ${post.name} <${post.email}></h3>
+       html: `<h3>From: ${post.name} (${post.email})</h3>
        
        <p>${post.message}</p>`
     })
