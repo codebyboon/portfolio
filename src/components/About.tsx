@@ -15,17 +15,17 @@ const About = () => {
     
     <section className="flex-col lg:px-16 px-6 lg:py-16 py-10 max-w-fit mx-auto relative z-0 scroll-m-20">
         
-        <div className="container flex flex-col lg:flex-row ">
-            <div className="relative w-[100%] max-w-3xl">
+        <div className="container flex flex-col items-center min-[1260px]:flex-row ">
+            <div className="relative w-screen max-w-max">
             <Image src={profileImage} alt="codebyboon" 
             width={400}
             height={400}
-            sizes="(max-width: 1080px) 100vw, 700px"
+            sizes="(max-width: 1080px) 200vw, 700px"
             priority
             className='h-96 rounded-2xl mx-auto' />
             </div>
             
-            <div className="opacity-1 transform-none lg:pl-8 mt-5 mx-auto lg:mt-0 ">
+            <div className="opacity-1 transform-none lg:pl-8 mt-5 mx-auto min-[1260px]:mt-0 ">
                 <p className="lg:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
                     About me
                 </p>
