@@ -43,7 +43,7 @@ const Ratingbar = ({skill, style, progress, imgsrc} : {skill: string, style: str
 const Skills = () => {
 
   return (
-    <div className='my-auto scroll-mt-28' id='skills'>
+    <div className='my-24 scroll-mt-28' id='skills'>
       <h2 className='font-bold md:text-6xl sm:text-5xl xs:text-4xl text-3xl mt-10 lg:mt-0 mb-10 lg:mb-20 w-full text-center text-[#fffffe]'>
         Skills
       </h2>
